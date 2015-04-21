@@ -13,6 +13,6 @@ Npm.depends({
 Package.onUse(function(api) {
   api.versionsFrom('1.1.0.2');
   api.use('coffeescript');
-  api.addFiles('mite.coffee');
+  api.addFiles('mite.coffee', 'server');
   api.export('MiteApi');
 });
